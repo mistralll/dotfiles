@@ -29,3 +29,5 @@ pbcopy < <キーの名前>.pub
 # AppStoreからインストールする必要のあるアプリ
 - RunCat
 - SafeInCloud
+- LINE
+- lol
