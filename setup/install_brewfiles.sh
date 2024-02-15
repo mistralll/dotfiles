@@ -1,0 +1,1 @@
+brew bundle -v --file=./dotfiles/Brewfile

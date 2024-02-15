@@ -1,0 +1,5 @@
+brew "gcc"
+brew "git"
+brew "htop"
+brew "tree"
+cask "rectangle"
