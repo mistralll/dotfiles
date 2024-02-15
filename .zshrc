@@ -1,3 +1,6 @@
+# brew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Java path
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
