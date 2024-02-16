@@ -1,3 +1,7 @@
+# ssh-add
+ssh-add ~/.ssh/github
+ssh-add ~/.ssh/bitbucket
+
 # brew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
