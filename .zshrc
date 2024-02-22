@@ -14,4 +14,4 @@ export LANG=ja_JP.UTF-8
 export PROMPT="%F{50}%C%f %F{11}>%f "
 export RPROMPT="%F{245}%~ %T%f"
 alias reload="exec $SHELL -l"
-alias rm='rm -r'
+alias  rm='rm -r'
