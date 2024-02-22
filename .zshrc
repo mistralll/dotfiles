@@ -9,10 +9,15 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk@17/include"
 
-# Python
+# Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+command -v pyenv > ~/dotfiles/null
+export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+# Python shortcuts
+python3=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
+alias mkvenv='python3 -m venv --prompt . .venv'
+alias activate_venv='source .venv/bin/activate'
 
 # ターミナルを綺麗にする
 export LANG=ja_JP.UTF-8
