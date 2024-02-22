@@ -49,7 +49,27 @@ pip list
 deactivate
 ```
 
+# venvのパッケージをgitを利用して管理する
+.venvはもちろん gitignore する
+```.gitignore
+/.venv
+```
+
+パッケージ一覧を出力
+```sh
+pip freeze > requirements.txt
+```
+
+パッケージを復元
+
+**復元する前に venv の仮想環境に入ること！**
+```
+(venvの環境名) pip install -r requirements.txt
+```
+
 # 参考
 [Pythonのパッケージ管理ベストプラクティス](https://qiita.com/c60evaporator/items/b6a7394231d1e768ce64)
 
 [仮想環境のディレクトリを `.venv` にする場合のTips](https://zenn.dev/methane/articles/7175d97bab1cd0)
+
+[venvの情報をgitで管理/共有する](https://www.lisz-works.com/entry/git-venv)
