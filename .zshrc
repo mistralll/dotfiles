@@ -25,3 +25,6 @@ export PROMPT="%F{50}%C%f %F{11}>%f "
 export RPROMPT="%F{245}%~ %T%f"
 alias reload="exec $SHELL -l"
 alias  rm='rm -r'
+
+#yt-dlp shortcuts
+alias ytdl-m4a='yt-dlp -f m4a'
