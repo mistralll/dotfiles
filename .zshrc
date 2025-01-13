@@ -19,6 +19,9 @@ python3=$(pyenv install -l | grep -v '[a-zA-Z]' | grep -e '\s3\.?*' | tail -1)
 alias mkvenv='python3 -m venv --prompt . .venv'
 alias activate_venv='source .venv/bin/activate'
 
+# set Ruby version
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+
 # ターミナルを綺麗にする
 export LANG=ja_JP.UTF-8
 export PROMPT="%F{50}%C%f %F{11}>%f "
