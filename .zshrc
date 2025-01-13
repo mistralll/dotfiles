@@ -21,6 +21,8 @@ alias activate_venv='source .venv/bin/activate'
 
 # set Ruby version
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+# cocoapods
+export PATH="/opt/homebrew/lib/ruby/gems/3.4.0/bin:$PATH"
 
 # ターミナルを綺麗にする
 export LANG=ja_JP.UTF-8
