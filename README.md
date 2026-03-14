@@ -28,6 +28,6 @@ pbcopy < <キーの名前>.pub
 
 # AppStoreからインストールする必要のあるアプリ
 - RunCat
-- SafeInCloud
+- ProtonPass
 - LINE
-- lol
+- Dia
